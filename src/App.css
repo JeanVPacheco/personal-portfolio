@@ -1,38 +1,101 @@
-.App {
+/* centering the whole page */
+/* html, body {
+  height: 100%;
+}
+
+html {
+  display: table;
+  margin: auto;
+}
+
+body {
+  display: table-cell;
+} */
+/* finish centering whole page */
+
+body {
+  background-color: rgb(71, 71, 71);
+  color: rgb(175, 175, 175);
+}
+
+nav {
+  background-color: rgb(31, 31, 31);
+  margin: auto;
   text-align: center;
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.yellow-bar {
+  height: 5px;
+  background-color: rgb(143, 117, 0);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h1 {
+  margin-top: 0px;
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+
+hr {
+  width: 50px;
+  height: 3px;
+  margin-left: 0px;
+  border-color: rgb(143, 117, 0);
+  background-color: rgb(143, 117, 0);
+}
+
+.header-component {
+  list-style: none;
+  width: 150px;
+  height: 30px;
+  margin: 10px;
+}
+
+.header-component:hover {
+  background-color: rgb(71, 71, 71);
+  font-size: 22px;
+}
+
+li.header-component {
+  font-size: 20px;
+  padding-top: 5px;
+}
+
+.picture-placeholder {
+  width: 200px;
+  height: 200px;
+  background-color: wheat;
+  border-radius: 50%;
+}
+
+.about-contact {
+  background-color: rgb(31, 31, 31);
+}
+
+.about-personal-info {
+  display: flex;
+  background-color: rgb(71, 71, 71);
+  padding: 20px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.about-section {
+  margin: auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.about-text {
+  background-color: rgb(31, 31, 31);
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  padding: 20px;
 }
