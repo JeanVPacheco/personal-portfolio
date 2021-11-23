@@ -4,8 +4,12 @@ function Header() {
       <nav>
         <div className="yellow-bar" />
         <ul>
-          <li className="header-component">About</li>
-          <li className="header-component">Skills</li>
+          <a href="#about">
+            <li className="header-component">About</li>
+          </a>
+          <a href="#skills">
+            <li className="header-component">Skills</li>
+          </a>
           <li className="header-component">Work</li>
         </ul>
       </nav>

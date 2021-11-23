@@ -1,22 +1,25 @@
 /* centering the whole page */
-/* html, body {
+html, body {
   height: 100%;
+  font-size: 16px;
 }
 
 html {
   display: table;
-  margin: auto;
+  width: 100%;
 }
 
 body {
   display: table-cell;
-} */
+}
 /* finish centering whole page */
 
 a {
   text-decoration: inherit;
   color: inherit;
   cursor: auto;
+  display: flex;
+  align-items: center;
 }
 
 a:visited {
@@ -32,8 +35,12 @@ body {
 
 h1 {
   margin-top: 0px;
-  font-size: 40px;
+  font-size: 2.5em;
   margin-bottom: 5px;
+}
+
+h2 {
+  font-size: 1.3em;
 }
 
 hr {
@@ -51,6 +58,7 @@ nav {
   width: 100%;
 }
 
+
 ul {
   display: flex;
   flex-direction: row;
@@ -62,54 +70,58 @@ ul {
   background-color: rgb(31, 31, 31);
 }
 
-.about-personal-info {
-  display: flex;
+.about-section {
+  width: 70vw;
+  padding: 20px 0 20px 20px;
   background-color: rgb(71, 71, 71);
+  display: flex;
   justify-content: space-between;
-  align-items: center;
+  flex-wrap: wrap;
 }
 
-.about-section {
-  margin: auto;
-  display: flex;
-  flex-direction: column;
+.about-me-text {
+  width: 60%;
+  height: fit-content;
 }
 
 .about-text {
   display: flex;
   flex-direction: column;
   text-align: justify;
-  padding: 20px;
+  width: 80%;
 }
 
 .about-logo {
-  width: 40px;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
 }
 
 .about-buttons {
   display: flex;
+  width: 100%;
 }
 
 /* about button CSS */
 
 .btn {
-  border: none;
-  color: inherit;
-  background: none;
-  cursor: pointer;
-  display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin-right: 20px;
+  background: rgb(143, 117, 0);
+  border: none;
+  cursor: pointer;
+  color: inherit;
+  display: flex;
+  height: 45px;
+  justify-content: center;
   letter-spacing: 1px;
+  margin-right: 10px;
   outline: none;
+  padding: 10px;
   position: relative;
+  transition: all 0.3s;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
-  transition: all 0.3s;
-  background: rgb(143, 117, 0);
-  width: 200px;
-  padding: 10px 20px;
+  width: 500px;
 }
 
 .btn:after {
@@ -142,9 +154,9 @@ ul {
 
 /* end of about button CSS */
 
-.contact-info {
+/* .contact-info {
   padding-left: 20px;
-}
+} */
 
 .header-component {
   list-style: none;
@@ -164,8 +176,29 @@ li.header-component {
 }
 
 .profile-picture {
-  width: 500px;
-  height: 500px;
+  width: 40%;
+  max-height: 450px;
+}
+
+.profile-picture img {
+  height: 100%;
+  margin-left: auto;
+  display: block;
+}
+
+.skill-block-title {
+  margin: 10px 0 5px 0;
+}
+
+.skill-list {
+  flex-direction: column;
+}
+
+
+.skills-section {
+  width: 70vw;
+  background-color: rgb(31, 31, 31);
+  padding: 20px 0 20px 20px;
 }
 
 .yellow-bar {
