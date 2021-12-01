@@ -1,3 +1,6 @@
+import { feSkills, beSkills, otherSkills } from '../Data/SkillsData';
+import SkillCard from './SkillCard';
+
 function Skills() {
   return (
     <section className="skills-section">
@@ -7,23 +10,21 @@ function Skills() {
       </div>
       <h2 className="skill-block-title">Front End Development</h2>
       <ul className="skill-list">
-        <li>Javascript</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>React</li>
-        <li>React-Testing-Library</li>
-        <li>Redux</li>
+        {feSkills.map((skill) => (
+          <SkillCard skill={skill} key={skill.name} />
+        ))}
       </ul>
       <h2 className="skill-block-title">Back End Development</h2>
       <ul className="skill-list">
-        <li>MySQL</li>
-        <li>MongoDB</li>
-        <li>NodeJS</li>
+        {beSkills.map((skill) => (
+          <SkillCard skill={skill} key={skill.name} />
+        ))}
       </ul>
       <h2 className="skill-block-title">Other Skills</h2>
       <ul className="skill-list">
-        <li>GIT</li>
-        <li>Docker</li>
+        {otherSkills.map((skill) => (
+          <SkillCard skill={skill} key={skill.name} />
+        ))}
       </ul>
     </section>
   );

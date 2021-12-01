@@ -3,7 +3,7 @@ function Header() {
     <>
       <nav>
         <div className="yellow-bar" />
-        <ul>
+        <ul className="nav-list">
           <a href="#about">
             <li className="header-component">About</li>
           </a>

@@ -1,5 +1,5 @@
 /* centering the whole page */
-html, body {
+/* html, body {
   height: 100%;
   font-size: 16px;
 }
@@ -11,7 +11,7 @@ html {
 
 body {
   display: table-cell;
-}
+} */
 /* finish centering whole page */
 
 a {
@@ -58,12 +58,13 @@ nav {
   width: 100%;
 }
 
+p {
+  margin: 0;
+}
 
 ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
   margin: 0;
+  padding: 0;
 }
 
 .about-contact {
@@ -89,6 +90,10 @@ ul {
   flex-direction: column;
   text-align: justify;
   width: 80%;
+}
+
+.about-text p{
+  margin: 10px 0;
 }
 
 .about-logo {
@@ -175,6 +180,10 @@ li.header-component {
   padding-top: 5px;
 }
 
+.nav-list {
+  display: flex;
+}
+
 .profile-picture {
   width: 40%;
   max-height: 450px;
@@ -187,18 +196,60 @@ li.header-component {
 }
 
 .skill-block-title {
-  margin: 10px 0 5px 0;
+  margin: 10px 0 5px 30px;
+}
+
+.skill-card {
+  display: flex;
+  align-items: center;
+  width: 280px;
+  background-color: rgb(71, 71, 71);
+  border-radius: 15px;
+  padding: 12px;
+  margin: 10px;
+}
+
+.skill-card-info h2 {
+  margin: 0;
+}
+
+.skill-card-info {
+  margin-left: 20px;
+}
+
+.skill-card-info hr {
+  border: 0;
+  margin: 3px;
+  width: 120px;
+  height: 1px;
+  margin-left: 0px;
+  border-color: rgb(112, 112, 112);
+  background-color: rgb(112, 112, 112);
 }
 
 .skill-list {
-  flex-direction: column;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 30px;
 }
 
+.skill-logo {
+  width: 40px;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
 
 .skills-section {
+  display: flex;
+  flex-direction: column;
   width: 70vw;
   background-color: rgb(31, 31, 31);
   padding: 20px 0 20px 20px;
+}
+
+.skills-title {
+  margin-left: 30px;
 }
 
 .yellow-bar {
