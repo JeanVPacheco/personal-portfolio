@@ -56,6 +56,8 @@ nav {
   margin: auto;
   text-align: center;
   width: 100%;
+  position: sticky;
+  top: 0;
 }
 
 p {
@@ -71,14 +73,13 @@ ul {
   background-color: rgb(31, 31, 31);
 }
 
-.about-section {
+.about-area {
   width: 70vw;
-  padding: 20px 0 20px 20px;
-  background-color: rgb(71, 71, 71);
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   margin: auto;
+  padding: 20px 0 20px 20px;
 }
 
 .about-me-text {
@@ -106,6 +107,10 @@ ul {
 .about-buttons {
   display: flex;
   width: 100%;
+}
+
+.about-section {
+  background-color: rgb(71, 71, 71);
 }
 
 /* about button CSS */
@@ -242,13 +247,16 @@ li.header-component {
   border-radius: 10px;
 }
 
-.skills-section {
+.skills-area {
   display: flex;
   flex-direction: column;
   width: 70vw;
-  background-color: rgb(31, 31, 31);
   padding: 20px 0 20px 20px;
   margin: auto;
+}
+
+.skills-section {
+  background-color: rgb(31, 31, 31);
 }
 
 .skills-title {
