@@ -78,6 +78,7 @@ ul {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin: auto;
 }
 
 .about-me-text {
@@ -182,6 +183,7 @@ li.header-component {
 
 .nav-list {
   display: flex;
+  justify-content: center;
 }
 
 .profile-picture {
@@ -246,6 +248,7 @@ li.header-component {
   width: 70vw;
   background-color: rgb(31, 31, 31);
   padding: 20px 0 20px 20px;
+  margin: auto;
 }
 
 .skills-title {
