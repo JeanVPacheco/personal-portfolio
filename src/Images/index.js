@@ -1,14 +1,15 @@
-import javaLogo from '../Images/javaScript_logo.svg';
-import htmlLogo from '../Images/html_logo.svg';
-import cssLogo from '../Images/css_logo.svg';
-import reactLogo from '../Images/react_logo.svg';
-import octopus from '../Images/octopus.svg';
-import reduxLogo from '../Images/redux_logo.svg';
-import nodejsLogo from '../Images/nodejs_logo.svg';
-import mongodbLogo from '../Images/mongodb_logo.svg';
-import mysqlLogo from '../Images/mysql_logo.svg';
-import gitLogo from '../Images/git_logo.svg';
-import dockerLogo from '../Images/docker_logo.svg';
+import javaLogo from '../Images/logos/javaScript_logo.svg';
+import htmlLogo from '../Images/logos/html_logo.svg';
+import cssLogo from '../Images/logos/css_logo.svg';
+import reactLogo from '../Images/logos/react_logo.svg';
+import octopus from '../Images/logos/octopus.svg';
+import reduxLogo from '../Images/logos/redux_logo.svg';
+import nodejsLogo from '../Images/logos/nodejs_logo.svg';
+import mongodbLogo from '../Images/logos/mongodb_logo.svg';
+import mysqlLogo from '../Images/logos/mysql_logo.svg';
+import gitLogo from '../Images/logos/git_logo.svg';
+import dockerLogo from '../Images/logos/docker_logo.svg';
+import project_mock from '../Images/projects/site_mockup.jpg';
 
 export {
   javaLogo,
@@ -21,5 +22,6 @@ export {
   mongodbLogo,
   mysqlLogo,
   gitLogo,
-  dockerLogo
+  dockerLogo,
+  project_mock
 };
