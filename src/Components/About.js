@@ -1,7 +1,7 @@
-import profile from '../Images/profile-picture.png';
-import github from '../Images/github-logo.png';
-import linkedin from '../Images/linkedin-logo.png';
-import pdf from '../Images/pdf-logo.png';
+import profile from '../Images/logos/profile-picture.png';
+import github from '../Images/logos/github_logo.svg';
+import linkedin from '../Images/logos/linkedin_logo.svg';
+import pdf from '../Images/logos/pdf_logo.svg';
 
 function About() {
   return (
