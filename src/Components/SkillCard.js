@@ -5,12 +5,12 @@ function SkillCard({ skill }) {
   switch (skill.level) {
     case 'Intermediate':
       styles = {
-        border: '3px solid rgb(70, 116, 27)'
+        borderLeft: '5px solid rgb(70, 116, 27)'
       };
       break;
     case 'Beginner':
       styles = {
-        border: '3px solid rgb(119, 74, 23)'
+        borderLeft: '5px solid rgb(119, 74, 23)'
       };
       break;
     default:

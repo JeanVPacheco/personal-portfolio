@@ -17,7 +17,6 @@ body {
 a {
   text-decoration: inherit;
   color: inherit;
-  cursor: auto;
   display: flex;
   align-items: center;
 }
@@ -61,8 +60,8 @@ hr {
   width: 50px;
   height: 3px;
   margin-left: 0px;
-  border-color: rgb(143, 117, 0);
-  background-color: rgb(143, 117, 0);
+  border-color: rgb(42, 152, 185);
+  background-color: rgb(42, 152, 185);
 }
 
 nav {
@@ -133,7 +132,7 @@ ul {
 
 .btn {
   align-items: center;
-  background: rgb(143, 117, 0);
+  background: rgb(42, 152, 185);
   border: none;
   cursor: pointer;
   color: inherit;
@@ -161,11 +160,11 @@ ul {
 }
 
 .btn:hover {
-  background: rgb(110, 90, 0);
+  background: rgb(13, 99, 126);
 }
 
 .btn:active {
-  background: rgb(143, 117, 0);
+  background: rgb(42, 152, 185);
   top: 2px;
 }
 
@@ -318,5 +317,5 @@ li.header-component {
 
 .yellow-bar {
   height: 5px;
-  background-color: rgb(143, 117, 0);
+  background-color: rgb(42, 152, 185);
 }
