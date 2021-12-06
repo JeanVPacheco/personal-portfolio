@@ -1,4 +1,4 @@
-import profile from '../Images/logos/profile-picture.png';
+import profile from '../Images/profile-picture.png';
 import github from '../Images/logos/github_logo.svg';
 import linkedin from '../Images/logos/linkedin_logo.svg';
 import pdf from '../Images/logos/pdf_logo.svg';
