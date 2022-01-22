@@ -9,7 +9,7 @@ import mongodbLogo from '../Images/logos/mongodb_logo.svg';
 import mysqlLogo from '../Images/logos/mysql_logo.svg';
 import gitLogo from '../Images/logos/git_logo.svg';
 import dockerLogo from '../Images/logos/docker_logo.svg';
-import project_mock from '../Images/projects/site_mockup.jpg';
+import jvp_trivia from '../Images/projects/jvp_trivia.jpeg';
 
 export {
   javaLogo,
@@ -23,5 +23,5 @@ export {
   mysqlLogo,
   gitLogo,
   dockerLogo,
-  project_mock
+  jvp_trivia
 };
