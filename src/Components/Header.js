@@ -1,16 +1,16 @@
 function Header() {
   return (
     <nav>
-      <div className="yellow-bar" />
+      <div className="nav-bar" />
       <ul className="nav-list">
         <a href="#about">
-          <li className="header-component">About</li>
+          <li className="nav-component">About</li>
         </a>
         <a href="#skills">
-          <li className="header-component">Skills</li>
+          <li className="nav-component">Skills</li>
         </a>
         <a href="#work">
-          <li className="header-component">Work</li>
+          <li className="nav-component">Work</li>
         </a>
       </ul>
     </nav>
