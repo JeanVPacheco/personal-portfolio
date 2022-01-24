@@ -1,369 +1,311 @@
-/* centering the whole page */
-/* html, body {
-  height: 100%;
-  font-size: 16px;
+#root {
+  display: flex;
+  flex-direction: column;
 }
-
-html {
-  display: table;
-  width: 100%;
-}
-
-body {
-  display: table-cell;
-} */
-/* finish centering whole page */
 
 a {
   text-decoration: inherit;
   color: inherit;
-  display: flex;
-  align-items: center;
-}
-
-a:visited {
-  text-decoration: inherit;
-  color: inherit;
-  cursor: auto;
 }
 
 body {
-  background-color: rgb(71, 71, 71);
+  width: 100%;
   color: rgb(175, 175, 175);
 }
 
-footer {
-  background-color: rgb(31, 31, 31);
-  margin: auto;
+header {
   width: 100%;
-  height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background-color: rgb(31, 31, 31);
 }
 
-footer h2 {
-  margin: 0;
-}
-
-h1 {
-  margin-top: 0px;
-  font-size: 2.5em;
-  margin-bottom: 5px;
-}
-
-h2 {
-  font-size: 1.3em;
-}
-
-hr {
-  width: 50px;
-  height: 3px;
-  margin-left: 0px;
-  border-color: rgb(42, 152, 185);
-  background-color: rgb(42, 152, 185);
+img {
+  max-width: 100%;
 }
 
 nav {
-  background-color: rgb(31, 31, 31);
-  margin: auto;
-  text-align: center;
-  width: 100%;
   position: sticky;
   top: 0;
   z-index: 1000;
-  height: 60px;
 }
 
-p {
-  margin: 0;
+.nav-bar {
+  height: 5px;
+  background-color: rgb(42, 152, 185);
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-}
-
-.about-contact {
+.nav-list {
   background-color: rgb(31, 31, 31);
-}
-
-.about-area {
-  width: 70vw;
+  font-size: 1.5em;
+  list-style: none;
+  margin: 0;
+  padding: 10px 0;
+  width: 100%;
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin: auto;
-  padding: 20px 0 20px 20px;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .about-me-text {
-  width: 60%;
-  height: fit-content;
+  width: 90%;
+  margin: auto;
 }
 
-.about-text {
-  display: flex;
-  flex-direction: column;
-  text-align: justify;
-  width: 80%;
-}
-
-.about-text p{
-  margin: 10px 0;
-}
-
-.about-logo {
-  width: 30px;
-  height: 30px;
-  margin-right: 10px;
-}
-
-.about-buttons {
-  display: flex;
-  width: 100%;
+.contact-info {
+  text-align: center;
 }
 
 .about-section {
   background-color: rgb(71, 71, 71);
 }
 
-/* about button CSS */
-
-.btn {
-  align-items: center;
-  background: rgb(42, 152, 185);
-  border: none;
-  cursor: pointer;
-  color: inherit;
+.about-div {
   display: flex;
-  height: 45px;
-  justify-content: center;
-  letter-spacing: 1px;
-  margin-right: 10px;
-  outline: none;
-  padding: 10px;
-  position: relative;
-  transition: all 0.3s;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  width: 500px;
+  flex-direction: column-reverse;
 }
 
-.btn:after {
-  content: '';
-  position: absolute;
-  z-index: -1;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
-}
-
-.btn:hover {
-  background: rgb(13, 99, 126);
-}
-
-.btn:active {
-  background: rgb(42, 152, 185);
-  top: 2px;
-}
-
-.btn:before {
-  position: absolute;
-  height: 100%;
-  left: 0;
-  top: 0;
-  line-height: 3;
-  font-size: 140%;
-  width: 60px;
-}
-
-/* end of about button CSS */
-
-/* .contact-info {
-  padding-left: 20px;
-} */
-
-.header-component {
-  list-style: none;
-  width: 150px;
-  height: 30px;
-  margin: 10px;
-}
-
-.header-component:hover {
-  background-color: rgb(71, 71, 71);
-  font-size: 22px;
-}
-
-li.header-component {
-  font-size: 20px;
-  padding-top: 5px;
-}
-
-.nav-list {
-  display: flex;
-  justify-content: center;
-}
-
-.profile-picture {
-  width: 40%;
-  max-height: 450px;
-}
-
-.profile-picture img {
-  height: 100%;
-  margin-left: auto;
-  display: block;
-  max-width: 100%;
-  max-height: 100%;
-}
-
-.skill-block-title {
-  margin: 10px 0 5px 0;
-}
-
-.skill-card {
-  display: flex;
-  align-items: center;
-  width: 280px;
-  background-color: rgb(71, 71, 71);
-  border-radius: 15px;
-  padding: 12px;
-  margin: 10px;
-}
-
-.skill-card-info h2 {
+.about-div h1 {
+  font-size: 1.8em;
   margin: 0;
+  margin: 10px 0 0 0;
 }
 
-.skill-card-info {
-  margin-left: 20px;
+.about-div h2 {
+  font-size: 1.5em;
+  margin: 10px 0 0 0;
 }
 
-.skill-card-info hr {
-  border: 0;
-  margin: 3px;
-  width: 120px;
-  height: 1px;
-  margin-left: 0px;
-  border-color: rgb(112, 112, 112);
-  background-color: rgb(112, 112, 112);
+.about-bar {
+  height: 3px;
+  width: 100px;
+  background-color: rgb(42, 152, 185);
+  margin: 10px 0;
 }
 
-.skill-list {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.skill-logo {
-  width: 40px;
-  color: rgb(255, 255, 255);
-  border-radius: 10px;
-}
-
-.skills-area {
+.about-buttons {
   display: flex;
   flex-direction: column;
-  width: 70vw;
-  padding: 20px 0 20px 20px;
+  width: 100%;
+}
+
+.about-button-content {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
   margin: auto;
+}
+
+.about-logo {
+  height: 40px;
+  margin: 10px 10px;
+}
+
+.about-profile-picture {
+  width: 70%;
+  display: block;
+  margin: auto;
+}
+
+.about-text p {
+  font-size: 1.1em;
+  text-align: justify;
+}
+
+.about-buttons a {
+  margin: 10px 0;
+}
+
+.btn {
+  background: rgb(42, 152, 185);
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  height: 60%;
+  width: 100%;
+}
+
+.btn h2 {
+  font-size: 2.5em;
+  color: rgb(255, 255, 255);
+}
+
+.skills-bar {
+  height: 3px;
+  width: 100px;
+  background-color: rgb(42, 152, 185);
+  margin: 10px 0;
 }
 
 .skills-section {
   background-color: rgb(31, 31, 31);
 }
 
-.work-area {
+.skills-div {
+  width: 90%;
+  margin: auto;
+}
+
+.skills-div h1 {
+  font-size: 1.8em;
+  margin: 0;
+  margin: 10px 0 0 0;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.skills-div h2 {
+  font-size: 1.5em;
+  margin: 10px 0 0 0;
+}
+
+.skill-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.skill-card {
+  background-color: rgb(71, 71, 71);
+  border-radius: 15px;
+  height: 62px;
+  margin: 20px 0;
+  padding: 12px;
+  text-align: center;
   display: flex;
-  flex-direction: column;
-  width: 70vw;
-  padding: 20px 0 20px 20px;
-  margin: auto;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.work-card {
-  width: 100%;
-  margin: 30px auto;
-  background-color: rgb(112, 112, 112);
-  padding: 30px;
+.skill-card h2 {
+  margin: 0;
 }
 
-.work-card img {
-  width: 100%;
+.skill-card hr {
+  margin: 0;
 }
 
-.work-card-info {
-  width: 64%;
-  margin: auto;
+.skill-card p {
+  margin: 0;
 }
 
-.work-card-info button {
-  width: 100%;
-  margin-top: 20px;
-}
-
-.work-image-div {
-  width: 60%;
-  background-color: rgb(197, 197, 197);
+.skill-card img {
+  height: 50px;
+  max-width: 100px;
   display: flex;
-  justify-content: center;
-  margin: auto;
-  padding: 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .work-section {
   background-color: rgb(71, 71, 71);
 }
 
-.yellow-bar {
-  height: 5px;
+.work-section h1 {
+  font-size: 1.8em;
+  margin: 10px 0 0 0;
+}
+
+.work-bar {
+  height: 3px;
+  width: 100px;
   background-color: rgb(42, 152, 185);
+  margin: 10px 0;
 }
 
-@media (max-width: 691)
-{
-  .skill-card {
-    width: 80%;
-  }
+.work-area {
+  width: 90%;
+  margin: auto;
+  padding-bottom: 20px;
 }
 
-@media (max-width: 1100px)
-{
-  .about-area {
-    flex-direction: column-reverse;
-    align-content: center;
-    width: 80%;
+.work-area .btn {
+  height: 62px;
+}
+
+.work-area h3 {
+  font-size: 1.5em;
+  color: rgb(255, 255, 255);
+}
+
+.work-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.work-card img {
+  margin: auto;
+}
+
+footer {
+  background-color: rgb(31, 31, 31);
+  text-align: center;
+}
+
+@media screen and (min-width: 765px) {
+  .about-profile-picture {
+    width: 50%;
   }
 
-  .about-me-text {
-    width: 100%;
+  .about-buttons {
+    flex-direction: row;
+    justify-content: center;
   }
 
-  .about-text {
-    width: 100%;
+  .about-buttons a {
+    width: 30%;
+    margin: 10px;
   }
 
-  .profile-picture {
-    width: 100%;
+  .btn {
+    height: 100%;
   }
 
-  .profile-picture img {
-    max-width: 60%;
-    max-height: 450px;
-    margin: auto;
-  }
-
-  .contact-info {
-    text-align: center;
-  }
-
-  .skills-area {
-    width: 80%;
+  .skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .skill-card {
     width: 40%;
+    margin: 20px 10px;
   }
+}
+
+@media screen and (min-width: 1080px) {
+  nav {
+    max-width: 1080px;
+    margin: auto;
+  }
+
+  .about-div {
+    flex-direction: row;
+    padding: 0 5%;
+    max-width: 1080px;
+    margin: auto;
+  }
+
+  .about-profile-picture {
+    width: 30%;
+  }
+
+  .about-button-content h2 {
+    font-size: 1.5em;
+  }
+
+  .skill-card {
+    width: 27%;
+    margin: 20px 10px;
+  }
+
+  .skills-div {
+    max-width: 1080px;
+    margin: auto;
+  }
+
+  .work-area {
+    max-width: 1080px;
+    margin: auto;
+  }
+
 }

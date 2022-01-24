@@ -34,13 +34,13 @@ const feSkills = [
     logo: reactLogo
   },
   {
-    name: 'React-Testing-Library',
+    name: 'ReactTestingLibrary',
     level: 'Beginner',
     logo: octopus
   },
   {
     name: 'Redux',
-    level: 'Beginner',
+    level: 'Intermediate',
     logo: reduxLogo
   }
 ];

@@ -6,7 +6,7 @@ function Work() {
     <section className="work-section" id="work">
       <div className="work-area">
         <h1 id="work">Work</h1>
-        <hr />
+        <div className="work-bar" />
         {workData.map((project) => (
           <WorkCard project={project} key={project.name} />
         ))}
