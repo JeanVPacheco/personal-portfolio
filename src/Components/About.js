@@ -19,14 +19,16 @@ function About() {
               <div className="about-bar" />
             </div>
             <p>
-              I have had a lot of diverse opportunities as an intern: a law firm, UFSC&apos;s
-              office, Municipal Court of Palhoça and a bank (BRDE). Through these I could work could
-              work in the public and private sector, and different law contexts as well.
+              I&apos;m passionate about learning new stuff, someone that&apos;s curious by nature.
+              After finishing my law degree with some experience as an intern, I felt that my path
+              was not compatible with my ambitions. I realized that a lot of my day to day
+              activities could, and should, be automatized. Because of that an interest in the IT
+              area grew in me, so I started to study web development and fell in love.
             </p>
             <p>
-              While working at my day to day activities, I realized that I could automate a lot of
-              what was doing, and it sparked an instering in learning basic concepts of programming.
-              Nowadays I am an aspiring full-stack web developer, studying at Trybe.
+              The dynamicity, ongoing evolution and social value that a software might provide, had
+              me diving headfirst into this world. I hope to be able to make a difference with my
+              unique experience and perspective!
             </p>
             <div className="about-buttons">
               <a href="https://www.linkedin.com/in/jeanvpacheco/" target="_blank" rel="noreferrer">
