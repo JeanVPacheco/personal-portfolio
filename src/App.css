@@ -1,3 +1,8 @@
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
 a {
   text-decoration: inherit;
   color: inherit;
@@ -6,6 +11,11 @@ a {
 body {
   width: 100%;
   color: rgb(175, 175, 175);
+}
+
+header {
+  width: 100%;
+  background-color: rgb(31, 31, 31);
 }
 
 img {
@@ -23,12 +33,9 @@ nav {
   background-color: rgb(42, 152, 185);
 }
 
-.nav-component:hover {
-  background-color: rgb(71, 71, 71);
-}
-
 .nav-list {
   background-color: rgb(31, 31, 31);
+  font-size: 1.5em;
   list-style: none;
   margin: 0;
   padding: 10px 0;
@@ -43,20 +50,26 @@ nav {
   margin: auto;
 }
 
+.contact-info {
+  text-align: center;
+}
+
 .about-section {
-  display: flex;
-  flex-direction: column-reverse;
-  margin: auto;
   background-color: rgb(71, 71, 71);
 }
 
-.about-section h1 {
+.about-div {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.about-div h1 {
   font-size: 1.8em;
   margin: 0;
   margin: 10px 0 0 0;
 }
 
-.about-section h2 {
+.about-div h2 {
   font-size: 1.5em;
   margin: 10px 0 0 0;
 }
@@ -82,28 +95,8 @@ nav {
   margin: auto;
 }
 
-.btn {
-  background: rgb(42, 152, 185);
-  border: none;
-  color: inherit;
-  cursor: pointer;
-  height: 80px;
-  width: 100%;
-  margin: 10px 0;
-}
-
-.btn a {
-  display: flex;
-  justify-content: center;
-}
-
-.btn h2 {
-  font-size: 2.5em;
-  color: rgb(255, 255, 255);
-}
-
 .about-logo {
-  height: 60px;
+  height: 40px;
   margin: 10px 10px;
 }
 
@@ -116,4 +109,203 @@ nav {
 .about-text p {
   font-size: 1.1em;
   text-align: justify;
+}
+
+.about-buttons a {
+  margin: 10px 0;
+}
+
+.btn {
+  background: rgb(42, 152, 185);
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  height: 60%;
+  width: 100%;
+}
+
+.btn h2 {
+  font-size: 2.5em;
+  color: rgb(255, 255, 255);
+}
+
+.skills-bar {
+  height: 3px;
+  width: 100px;
+  background-color: rgb(42, 152, 185);
+  margin: 10px 0;
+}
+
+.skills-section {
+  background-color: rgb(31, 31, 31);
+}
+
+.skills-div {
+  width: 90%;
+  margin: auto;
+}
+
+.skills-div h1 {
+  font-size: 1.8em;
+  margin: 0;
+  margin: 10px 0 0 0;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.skills-div h2 {
+  font-size: 1.5em;
+  margin: 10px 0 0 0;
+}
+
+.skill-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.skill-card {
+  background-color: rgb(71, 71, 71);
+  border-radius: 15px;
+  height: 62px;
+  margin: 20px 0;
+  padding: 12px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.skill-card h2 {
+  margin: 0;
+}
+
+.skill-card hr {
+  margin: 0;
+}
+
+.skill-card p {
+  margin: 0;
+}
+
+.skill-card img {
+  height: 50px;
+  max-width: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.work-section {
+  background-color: rgb(71, 71, 71);
+}
+
+.work-section h1 {
+  font-size: 1.8em;
+  margin: 10px 0 0 0;
+}
+
+.work-bar {
+  height: 3px;
+  width: 100px;
+  background-color: rgb(42, 152, 185);
+  margin: 10px 0;
+}
+
+.work-area {
+  width: 90%;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+.work-area .btn {
+  height: 62px;
+}
+
+.work-area h3 {
+  font-size: 1.5em;
+  color: rgb(255, 255, 255);
+}
+
+.work-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.work-card img {
+  margin: auto;
+}
+
+footer {
+  background-color: rgb(31, 31, 31);
+  text-align: center;
+}
+
+@media screen and (min-width: 765px) {
+  .about-profile-picture {
+    width: 50%;
+  }
+
+  .about-buttons {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .about-buttons a {
+    width: 30%;
+    margin: 10px;
+  }
+
+  .btn {
+    height: 100%;
+  }
+
+  .skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .skill-card {
+    width: 40%;
+    margin: 20px 10px;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  nav {
+    max-width: 1080px;
+    margin: auto;
+  }
+
+  .about-div {
+    flex-direction: row;
+    padding: 0 5%;
+    max-width: 1080px;
+    margin: auto;
+  }
+
+  .about-profile-picture {
+    width: 30%;
+  }
+
+  .about-button-content h2 {
+    font-size: 1.5em;
+  }
+
+  .skill-card {
+    width: 27%;
+    margin: 20px 10px;
+  }
+
+  .skills-div {
+    max-width: 1080px;
+    margin: auto;
+  }
+
+  .work-area {
+    max-width: 1080px;
+    margin: auto;
+  }
+
 }

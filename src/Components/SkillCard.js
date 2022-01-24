@@ -19,7 +19,7 @@ function SkillCard({ skill }) {
   return (
     <li className="skill-card" style={styles}>
       <img src={skill.logo} alt={`${skill.name} logo`} className="skill-logo" />
-      <div className="skill-card-info">
+      <div>
         <h2>{skill.name}</h2>
         <hr />
         <p>{skill.level}</p>
