@@ -9,7 +9,8 @@ import {
   mongodbLogo,
   mysqlLogo,
   gitLogo,
-  dockerLogo
+  dockerLogo,
+  photoshopLogo
 } from '../Images';
 
 const feSkills = [
@@ -73,6 +74,11 @@ const otherSkills = [
     name: 'Docker',
     level: 'Intermediate',
     logo: dockerLogo
+  },
+  {
+    name: 'Photoshop',
+    level: 'Intermediate',
+    logo: photoshopLogo
   }
 ];
 
