@@ -47,7 +47,7 @@ function About() {
                   </div>
                 </button>
               </a>
-              <a href="https://github.com/JeanVPacheco" target="_blank" rel="noreferrer">
+              <a href="/CURRICULO-JEAN-VITOR-PACHECO.pdf" target="_blank" rel="noreferrer" download>
                 <button className="btn">
                   <div className="about-button-content">
                     <img src={pdf} className="about-logo" alt="pdf logo" />
