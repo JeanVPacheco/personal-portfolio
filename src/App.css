@@ -247,8 +247,9 @@ footer {
   }
 
   .about-buttons {
+    width: 100%;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
   }
 
   .about-buttons a {
@@ -263,12 +264,11 @@ footer {
   .skill-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
   }
 
   .skill-card {
     width: 40%;
-    margin: 20px 10px;
   }
 }
 
@@ -289,13 +289,16 @@ footer {
     width: 30%;
   }
 
+  .about-buttons a {
+    margin: 0;
+  }
+
   .about-button-content h2 {
     font-size: 1.5em;
   }
 
   .skill-card {
     width: 27%;
-    margin: 20px 10px;
   }
 
   .skills-div {
