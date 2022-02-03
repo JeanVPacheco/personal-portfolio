@@ -6,7 +6,7 @@ This is my personal portfolio. It was developed using React to show my knowledge
 
 Esse é meu portfólio pessoal. Foi desenvolvido utilizando React, para mostrar meu conhecimento em algumas tecnologias.
 
-# 🇺🇸 Hello! Follow the instruction to run the app:
+# 🇺🇸 Hello! Follow the instructions below to run the app:
 
 1. Clone this repository to a local directory:
 - $git clone (SSH or HTTTP)
