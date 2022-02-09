@@ -3,7 +3,9 @@ import PropTypes from 'prop-types';
 function WorkCard({ project }) {
   return (
     <div className="work-card">
-      <img src={project.image} alt={`${project.name} application screenshot`} />
+      <a href={project.link} target="_blank" rel="noreferrer">
+        <img src={project.image} alt={`${project.name} application screenshot`} />
+      </a>
       <div className="work-card-info">
         <h1>{project.name}</h1>
         <p>{project.description}</p>

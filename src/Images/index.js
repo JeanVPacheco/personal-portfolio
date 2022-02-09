@@ -10,6 +10,9 @@ import mysqlLogo from '../Images/logos/mysql_logo.svg';
 import gitLogo from '../Images/logos/git_logo.svg';
 import dockerLogo from '../Images/logos/docker_logo.svg';
 import photoshopLogo from '../Images/logos/photoshop_logo.svg';
+import expressLogo from '../Images/logos/expressjs_logo.svg';
+import jwtLogo from '../Images/logos/jwt_logo.svg';
+import sequelizeLogo from '../Images/logos/sequelizejs_logo.svg';
 import jvp_trivia from '../Images/projects/jvp_trivia.jpeg';
 
 export {
@@ -25,5 +28,8 @@ export {
   gitLogo,
   dockerLogo,
   photoshopLogo,
-  jvp_trivia
+  jvp_trivia,
+  expressLogo,
+  jwtLogo,
+  sequelizeLogo
 };

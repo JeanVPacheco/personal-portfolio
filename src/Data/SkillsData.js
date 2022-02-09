@@ -10,7 +10,10 @@ import {
   mysqlLogo,
   gitLogo,
   dockerLogo,
-  photoshopLogo
+  photoshopLogo,
+  expressLogo,
+  jwtLogo,
+  sequelizeLogo
 } from '../Images';
 
 const feSkills = [
@@ -59,8 +62,23 @@ const beSkills = [
   },
   {
     name: 'NodeJS',
-    level: 'Beginner',
+    level: 'Intermediate',
     logo: nodejsLogo
+  },
+  {
+    name: 'ExpressJS',
+    level: 'Beginner',
+    logo: expressLogo
+  },
+  {
+    name: 'JWT',
+    level: 'Beginner',
+    logo: jwtLogo
+  },
+  {
+    name: 'Sequelize ORM',
+    level: 'Beginner',
+    logo: sequelizeLogo
   }
 ];
 
